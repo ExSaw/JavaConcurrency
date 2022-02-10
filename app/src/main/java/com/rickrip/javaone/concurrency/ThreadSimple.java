@@ -17,7 +17,7 @@ public class ThreadSimple extends Thread {
         Log.d("DEF_TAG", strOut);
 
         while (true){
-            currentThread();
+
             try {
                 sleep(100L);
             } catch (InterruptedException e) {
